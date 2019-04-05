@@ -1,0 +1,12 @@
+#soloheader {
+	background-color: #66CCCC;
+}
+#solonav {
+	background-color: #CC3333;
+	color: #FFFFFF;
+}
+li{
+	background-color: #FF6666;
+	display: inline;
+}
+
