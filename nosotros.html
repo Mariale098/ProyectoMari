@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>www.AdoptaYa.com</title>
+    
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/css/mdb.min.css" rel="stylesheet">
+ 
+<!-- Aplicando los estilos a la página-->
+<style>
+  .fondo{
+    padding: 3%;
+    background: url(Images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .gris{
+
+    background: rgba(0, 0, 0, 0.384);
+  }
+
+  .top-nav-collapse{
+    background: rgba(0, 0, 0, 0.678) !important; 
+  }
+
+.my-nav .dropdown-menu{
+    background-color:  rgba(54, 54, 59, 0.637);
+}
+
+.my-nav .dropdown-item:hover{background-color: rgba(98, 98, 110, 0.637);}
+.my-nav .dropdown-item:hover{color:white;}
+
+.card-body{
+  font-family: sans-serif;
+}
+
+.card-header{
+  background: rgba(0, 0, 0, 0.377);
+}
+</style>
+
+</head>
+
+<body>
+
+<section class="fondo">
+
+  <!--Menú de Navegación-->
+  <nav class="navbar navbar-expand-lg navbar-dark gris my-nav scrolling-navbar fixed-top">
+  <!--Se visualiza el ancla del logo-->
+      <a class="navbar-brand" href="index.html">
+          <img src="Images/logo.jpg" width="26" height="26">Bienvenidos <br>
+      </a>
+  <!--Se visualiza el botón responsive-->
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+   </button>
+  <!--Se visualiza cada item del menú-->
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="index.html">Inicio</a>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Nosotros
+                  </a>
+                  <!--Utilizando la plantilla Dropdown generé lo que comprende mi item Nosotros-->
+                  <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item " href="nosotros.html">Misión</a>
+                    <a class="dropdown-item " href="nosotros.html">Visión</a>
+                    <a class="dropdown-item " href="nosotros.html">Valores</a>
+                  </div>
+              </li>
+              <a class="nav-item nav-link" href="disponible.html">Mascotas Disponibles</a>
+              <a class="nav-item nav-link" href="contacto.html">Contáctenos</a>
+            </div>
+      </div>
+ 
+    </nav>
+    
+    <br>
+    <br>
+
+      <!--Contenido de la Página-->
+      <!--Se visualiza las plantillas utilizadas de Card-->
+      <div class="card">
+          <h5 class="card-header">Misión</h5>
+          <div class="card-body">
+            <p class="card-text">Contribuir con el bienestar, atención y protección de perros y gatos en situación de calle, maltrato o abandono.</p>
+          </div>
+        </div>
+
+        <br>
+        <br>
+
+
+         <div class="card">
+          <h5 class="card-header">Visión</h5>
+          <div class="card-body">
+            <p class="card-text">Ser un apoyo en materia de protección y salud animal para que promover el rescate a la fauna doméstica en situación de calle, maltrato y abandono.
+              </p>
+          </div>
+        </div>
+
+        <br>
+        <br>
+
+         <div class="card">
+          <h5 class="card-header">Valores</h5>
+          <div class="card-body">
+            <p class="card-text">
+                - Honestidad: nuestro comportamiento es armónico, sano y de confianza, creando credibilidad en las personas y de acercamiento a la verdad en las actuaciones.</br>
+                - Dedicación: trabajamos día a día con entrega para la obtención de los resultados esperados.</br>
+                - Constancia: contamos con un personal con la perseverancia necesaria para llevar adelante el bienestar, atención y protección de las especies caninas y felinas en situación de calle, maltrato o abandono.</br>
+                - Vocación de servicio: como miembros responsables de esta institución actuamos de manera coherente entre el comportamiento y los actos en el ejercicio de las funciones hacia el bienestar de las especies caninas y felinas en situación de calle, maltrato y abandono.</br>
+                - Eficacia: poseemos procesos que satisfacen las demandas internas y externas de los usuarios.</br>
+                - Ecoanimalismo: promovemos la protección y rescate.</p>
+          </div>
+        </div>
+
+</section>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/js/mdb.min.js"></script>
+  </body>
+</html>

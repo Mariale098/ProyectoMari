@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>www.AdoptaYa.com</title>
+    
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/css/mdb.min.css" rel="stylesheet">
+ 
+<!-- Aplicando los estilos a la página-->
+<style>
+  .fondo{
+    padding: 3%;
+    background: url(Images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .gris{
+
+    background: rgba(0, 0, 0, 0.384);
+  }
+
+  .top-nav-collapse{
+    background: rgba(0, 0, 0, 0.678) !important; 
+  }
+
+.my-nav .dropdown-menu{
+    background-color:  rgba(54, 54, 59, 0.637);
+}
+
+.my-nav .dropdown-item:hover{background-color: rgba(98, 98, 110, 0.637);}
+.my-nav .dropdown-item:hover{color:white;}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="fondo">
+  <!--Menú de Navegación-->
+  <nav class="navbar navbar-expand-lg navbar-dark gris my-nav scrolling-navbar fixed-top">
+  <!--Se visualiza el ancla del logo-->  
+      <a class="navbar-brand" href="index.html">
+          <img src="Images/logo.jpg" width="26" height="26">Bienvenidos <br>
+      </a>
+      <!--Se visualiza el botón responsive-->
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+   </button>
+      <!--Se visualiza cada item del menú-->
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="index.html">Inicio</a>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Nosotros
+                  </a>
+                  <!--Utilizando la plantilla Dropdown generé lo que comprende mi item Nosotros-->
+                  <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item " href="nosotros.html">Misión</a>
+                    <a class="dropdown-item " href="nosotros.html">Visión</a>
+                    <a class="dropdown-item " href="nosotros.html">Valores</a>
+                  </div>
+              </li>
+              <a class="nav-item nav-link" href="disponible.html">Mascotas Disponibles</a>
+              <a class="nav-item nav-link" href="contacto.html">Contáctenos</a>
+            </div>
+      </div>
+ 
+    </nav>
+    
+    <br>
+    <br>
+
+      <!--Contenido de la Página-->
+      <!--Se visualiza las plantillas utilizadas de Card-->
+      <div class="card-deck">
+          <div class="card">
+            <img src="Images/gato1.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Gato Siamés</h5>
+              <p class="card-text">Todos los gatos siameses comparten el mismo temperamento independientemente de su variedad fisiológica, es decir, son unos gatos algo nerviosos, muy curiosos, exigentes. Son gatos extrovertidos y en especial que pueden desarrollar un fuerte lazo de amor con su humano. También son famosos por su agudo chillido, similar al llanto de un bebe. Que será la manera de manifestarse cuando requieran de tu atención y tus mimos.</p>
+              <a href="#modal1" class="btn btn-dark" data-toggle="modal">Adoptar</a>
+              <div class="modal fade" id="modal1">
+                <div class="modal-dialog">
+                   <div class="modal-content">
+                    <div class="modal-header">
+                          <h4 class="modal-title">¡Felicidades! usted a logrado adoptar a este gatito</h4>
+                          <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Images/perro2.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Husky Siberiano</h5>
+              <p class="card-text">El Husky Siberiano tiene un temperamento y carácter especial, muy diferente a otras razas e perros y puede que sorprendente para aquellos que no lo conocen. Su temperamento equilibrado, su amor por otros perros y la indiferencia hacia los extraños los convierte en perros familiares ideales. Los huskies tienen un gusto por la vida que no tiene rival en otras razas y siempre juegan con el vigor de un cachorro.</p>
+              <a href="#modal2" class="btn btn-dark" data-toggle="modal">Adoptar</a>
+              <div class="modal fade" id="modal2">
+                <div class="modal-dialog">
+                   <div class="modal-content">
+                    <div class="modal-header">
+                          <h4 class="modal-title">¡Felicidades! usted a logrado adoptar a este perrito</h4>
+                          <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Images/gato3.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Gato Persa</h5>
+              <p class="card-text">El gato Persa es uno de los gatos más populares que existen como mascota, debido a su carácter dócil y social. A pesar de su naturaleza suave y dulce, necesita sentirse cómodo en el hogar para poder integrarse fácilmente en la familia. Por eso, es importante que el hogar sea tranquilo y se le ofrezcan rutinas y hábitos que le brinden seguridad y estabilidad.</p>
+              <a href="#modal1" class="btn btn-dark" data-toggle="modal">Adoptar</a>
+              <div class="modal fade" id="modal1">
+                <div class="modal-dialog">
+                   <div class="modal-content">
+                    <div class="modal-header">
+                          <h4 class="modal-title">¡Felicidades! usted a logrado adoptar a este gatito</h4>
+                          <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <br>
+
+      <div class="card-deck">
+          <div class="card">
+            <img src="Images/perro4.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Pastor Alemán</h5>
+              <p class="card-text">El pastor alemán es un perro sociable y adiestrable por naturaleza, que puede ser la perfecta mascota o el perfecto animal de trabajo si se educa correctamente. Es muy importante comenzar su educación y socialización aproximadamente a los 3 meses, puesto que así será mucho más fácil conseguir un animal equilibrado y capaz de comportarse correctamente en todas las circunstancias.</p>
+              <a href="#modal2" class="btn btn-dark" data-toggle="modal">Adoptar</a>
+              <div class="modal fade" id="modal2">
+                <div class="modal-dialog">
+                   <div class="modal-content">
+                    <div class="modal-header">
+                          <h4 class="modal-title">¡Felicidades! usted a logrado adoptar a este perrito</h4>
+                          <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Images/gato5.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Gato Esfinge</h5>
+              <p class="card-text">Los gatos esfinge son alegres y cariñosos y están muy unidos a su dueño. También suelen ser bastante amigables con otras mascotas y es raro que actúen de manera agresiva. No es recomendable dejar a los esfinges solos en casa durante mucho tiempo porque son astutos y pueden aburrirse rápidamente. Puedes estimular su mente, por ejemplo, con juegos de inteligencia. Otra opción es socializarlos con otros animales de su especie para que estén entretenidos.</p>
+              <a href="#modal1" class="btn btn-dark" data-toggle="modal">Adoptar</a>
+              <div class="modal fade" id="modal1">
+                <div class="modal-dialog">
+                   <div class="modal-content">
+                    <div class="modal-header">
+                          <h4 class="modal-title">¡Felicidades! usted a logrado adoptar a este gatito</h4>
+                          <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="Images/perro6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Beagle</h5>
+              <p class="card-text">Una de las razones por las que el beagle ha vuelto tan popular es su capacidad para relacionarse con los niños. El beagle es, en realidad, un gran pequeño perro. Es suficiente para ser una fuerza a tener en cuenta, pero lo suficiente pequeño que no estorbe. Su temperamento tranquilo y alegre le hace un gran compañero, mientras que su independencia significa que no es demasiado exigente.</p>
+              <a href="#modal2" class="btn btn-dark" data-toggle="modal">Adoptar</a>
+              <div class="modal fade" id="modal2">
+                <div class="modal-dialog">
+                   <div class="modal-content">
+                    <div class="modal-header">
+                          <h4 class="modal-title">¡Felicidades! usted a logrado adoptar a este perrito</h4>
+                          <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  
+  
+</section>
+
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.11/js/mdb.min.js"></script>
+  </body>
+  </html>
